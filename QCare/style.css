@@ -1,0 +1,119 @@
+.header-main {
+    display: flex;
+    padding: var(--Typography-Size-s, 16px) 0px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    flex-wrap: wrap;
+    background-color: var(--true-white);
+}
+
+.header-main-logo {
+    width: 550px;
+    height: 100%;
+    background-color: var(--accent-800);
+}
+/*Colors*/
+
+:root {
+    --accent-200: rgba(224, 112, 156, 0.68);
+    --accent-400: rgba(226, 120, 168, 1);
+    --accent-600: rgba(213, 91, 146, 1);
+    --accent-800: rgba(184, 55, 113, 1);
+    --true-white: rgba(255, 255, 255, 1);
+    --true-black: rgba(0, 0, 0, 1);
+    --paper-dark: rgba(66, 66, 66, 1);
+    --light-grey: rgba(222, 222, 222, 1);
+    --default-dark: rgba(48, 48, 48, 1);
+    --secondary-main: rgba(155, 187, 155, 1);
+    --primary-dark: rgba(53, 122, 56, 1);
+    --primary-light: rgba(200, 230, 201, 1);
+
+/*Text*/
+    --h1-font-family: "Plus Jakarta Sans", Helvetica;
+    --h1-font-weight: 700;
+    --h1-font-size: 24px;
+    --h1-letter-spacing: 0px;
+    --h1-line-height: normal;
+    --h1-font-style: normal;
+    --h2-font-family: "Plus Jakarta Sans", Helvetica;
+    --h2-font-weight: 400;
+    --h2-font-size: 40px;
+    --h2-letter-spacing: 0px;
+    --h2-line-height: 61px;
+    --h2-font-style: normal;
+    --fineprint-font-family: "Plus Jakarta Sans", Helvetica;
+    --fineprint-font-weight: 700;
+    --fineprint-font-size: 10px;
+    --fineprint-letter-spacing: 0px;
+    --fineprint-line-height: 160.0000023841858%;
+    --fineprint-font-style: normal;
+    --text-xxs-font-family: "Plus Jakarta Sans", Helvetica;
+    --text-xxs-font-weight: 700;
+    --text-xxs-font-size: 12px;
+    --text-xxs-letter-spacing: 0px;
+    --text-xxs-line-height: 160.0000023841858%;
+    --text-xxs-font-style: normal;
+    --text-xs-font-family: "Plus Jakarta Sans", Helvetica;
+    --text-xs-font-weight: 700;
+    --text-xs-font-size: 14px;
+    --text-xs-letter-spacing: 0px;
+    --text-xs-line-height: 160.0000023841858%;
+    --text-xs-font-style: normal;
+    --text-sm-font-family: "Plus Jakarta Sans", Helvetica;
+    --text-sm-font-weight: 500;
+    --text-sm-font-size: 20px;
+    --text-sm-letter-spacing: 0px;
+    --text-sm-line-height: 160.0000023841858%;
+    --text-sm-font-style: normal;
+    --text-md-font-family: "Plus Jakarta Sans", Helvetica;
+    --text-md-font-weight: 500;
+    --text-md-font-size: 16px;
+    --text-md-letter-spacing: 0px;
+    --text-md-line-height: 160.0000023841858%;
+    --text-md-font-style: normal;
+    --text-lg-font-family: "Plus Jakarta Sans", Helvetica;
+    --text-lg-font-weight: 500;
+    --text-lg-font-size: 18px;
+    --text-lg-letter-spacing: 0px;
+    --text-lg-line-height: 160.0000023841858%;
+    --text-lg-font-style: normal;
+    --text-xl-font-family: "Plus Jakarta Sans", Helvetica;
+    --text-xl-font-weight: 500;
+    --text-xl-font-size: 24px;
+    --text-xl-letter-spacing: 0px;
+    --text-xl-line-height: 160.0000023841858%;
+    --text-xl-font-style: normal;
+    --text-xxl-font-family: "Plus Jakarta Sans", Helvetica;
+    --text-xxl-font-weight: 600;
+    --text-xxl-font-size: 34px;
+    --text-xxl-letter-spacing: 0px;
+    --text-xxl-line-height: 150%;
+    --text-xxl-font-style: normal;
+    --button-sm-font-family: "Poppins", Helvetica;
+    --button-sm-font-weight: 700;
+    --button-sm-font-size: 24px;
+    --button-sm-letter-spacing: 0px;
+    --button-sm-line-height: normal;
+    --button-sm-font-style: normal;
+    --button-md-font-family: "Poppins", Helvetica;
+    --button-md-font-weight: 700;
+    --button-md-font-size: 36px;
+    --button-md-letter-spacing: 0px;
+    --button-md-line-height: normal;
+    --button-md-font-style: normal;
+    --button-lg-font-family: "Poppins", Helvetica;
+    --button-lg-font-weight: 700;
+    --button-lg-font-size: 39px;
+    --button-lg-letter-spacing: 0px;
+    --button-lg-line-height: normal;
+    --button-lg-font-style: normal;
+    --text-hero-font-family: "Plus Jakarta Sans", Helvetica;
+    --text-hero-font-weight: 400;
+    --text-hero-font-size: 28px;
+    --text-hero-letter-spacing: 0px;
+    --text-hero-line-height: 150%;
+    --text-hero-font-style: normal;
+}
